@@ -16,8 +16,8 @@
 
 ## 📫 How to Reach Me
 - 📧 Email: *katarzynakadyszewska@gmail.com*
-- 💬 LinkedIn: *Add your LinkedIn profile link here*
-
+- 💬 LinkedIn: *https://www.linkedin.com/in/katarzyna-kadyszewska?trk=contact-info*
+  
 ## 😄 Pronouns
 - They/Them
 
