@@ -2,7 +2,7 @@
 
 ## 👀 About Me
 - 🌍 I’m passionate about **Geoinformatics**, focusing on **mathematics**, **physics**, and **data analysis**.
-- 🤖 I’m also a second-degree **Artificial Intelligence** student with a strong interest in **programming** and **machine learning**.
+- 🤖 I’m also a graduate student of **Artificial Intelligence** with a strong interest in **programming** and **machine learning**.
 
 ## 🌱 Currently Learning
 - Advanced algorithms and machine learning techniques.
