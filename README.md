@@ -1,29 +1,25 @@
 # 👋 Hi, I’m @kat1478
 
 ## 👀 About Me
-- 🌍 I’m passionate about **Geoinformatics**, focusing on **mathematics**, **physics**, and **data analysis**.
-- 🤖🤖 I’m also a graduate student specializing in **Artificial Intelligence** with a strong interest in **programming** and **machine learning**. 
+🎓 I'm a **Computer Science** student at **Warsaw University of Technology (WUT)**, specializing in **Artificial Intelligence**.
+🧠 I have a strong interest in **Machine Learning**, **Deep Learning**, and **Algorithm Design**.
 
 ## 🌱 Currently Learning
-- Advanced algorithms and machine learning techniques.
-- Data visualization and geospatial data processing.
-- Integration of AI and geoinformatics.
+* Advanced Machine Learning algorithms (e.g., Transformer networks, Reinforcement Learning).
+* Efficient Data Structures and Algorithm Optimization.
+* Practical application of frameworks like TensorFlow and PyTorch.
 
 ## 💞️ Looking to Collaborate
-- **AI-driven geospatial projects.**
-- Open-source projects related to data analysis and visualization.
-- Anything involving **data science** or **GIS**.
+* Machine Learning/Deep Learning projects.
+* Open-source contributions focusing on Data Science or AI tools.
+* Any challenging project involving **Python** and efficient algorithm implementation.
 
 ## 📫 How to Reach Me
-- 📧 Email: *katarzynakadyszewska@gmail.com*
-- 💬 LinkedIn: *https://www.linkedin.com/in/katarzyna-kadyszewska?trk=contact-info*
-  
-## 😄 Pronouns
-- They/Them
+📧 Email: katarzynakadyszewska@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/katarzyna-kadyszewska?trk=contact-info
 
 ## ⚡ Fun Facts
-- 🗺️ I enjoy combining my love for **travel** with exploring **GIS technologies**.
-- 🍳 I love **cooking** and experimenting with recipes.
-- ♟️ A fan of chess and strategy games.
+* I'm a fan of **chess** and strategy games, which helps me think algorithmically.
+* I enjoy tackling complex **programming challenges**.
 
 Feel free to connect and collaborate!
