@@ -1,113 +1,197 @@
-# Hi, I'm Katarzyna 👋
+Hi, I'm Katarzyna 👋
 
-### AI/ML Engineer · LLM Systems · Evaluation · Applied Machine Learning
+AI/ML Engineering · LLM Systems · NLP · AI Evaluation
 
-I build **AI and data systems that need to work outside the happy path**.
+I build AI and data systems designed to be tested, measured, and improved — not just demonstrated.
 
-My work focuses on LLM applications, semantic systems, machine learning experiments, and reproducible data pipelines. I am particularly interested in the question that comes after building a working prototype:
+My work spans LLM applications, semantic algorithms, machine learning experiments, computational neuroscience, and data engineering.
 
-**How do we know that it actually works?**
+I'm especially interested in the question that comes after building a working prototype:
 
-That usually means designing evaluations, testing unseen cases, inspecting failure modes, validating assumptions, and improving the system based on evidence rather than treating a successful demo as the finish line.
+How do we know that it actually works?
 
-I'm a **Computer Science Master's student at Warsaw University of Technology**, specializing in **Artificial Intelligence**.
+For me, that means establishing meaningful baselines, designing controlled experiments, evaluating on unseen data, investigating failure modes, and making results reproducible.
 
-## 🔬 What I work on
+I'm completing my Master's degree in Computer Science at Warsaw University of Technology, specializing in Artificial Intelligence.
 
-* **LLM & RAG systems** — retrieval, embeddings, grounded generation, citations, refusal behaviour and local LLMs
-* **AI evaluation** — benchmark design, held-out validation, failure analysis and robustness testing
-* **Semantic & NLP systems** — transformers, semantic similarity, embeddings and document comparison
-* **Applied machine learning** — experimentation, model evaluation and reproducible ML workflows
-* **Data & algorithm engineering** — analytical pipelines, validation, SQL, testing and algorithm implementation
+🔬 Featured Projects
 
-## 🧪 Selected work
+📚 "Notes RAG Assistant" (https://github.com/kat1478/notes-rag-assistant)
 
-### 📚 [Notes RAG Assistant](https://github.com/kat1478/notes-rag-assistant)
+LLM Engineering · RAG · Evaluation · AWS
 
-A local-first RAG system for querying personal notes with grounded generation and explicit source citations.
+An end-to-end Retrieval-Augmented Generation application for querying personal notes with grounded answers, explicit source citations, and refusal behaviour when evidence is insufficient.
 
-The project separates **retrieval evaluation from answer evaluation**, tests the system on previously unseen documents, measures refusal behaviour, and documents observed failure modes such as cross-lingual retrieval gaps and context fragmentation.
+- Built a FastAPI backend with semantic retrieval, TF-IDF fallback, context expansion, persistent vector storage, and interchangeable LLM providers.
+- Designed separate evaluation pipelines for retrieval quality, answer quality, and previously unseen documents.
+- Benchmarked 6 LLMs on 94 questions, comparing answer grounding, cost, and latency.
+- Integrated an LLM-as-judge calibrated against human assessments.
+- Implemented automated quality gates, Docker support, and an AWS Lambda deployment.
 
-`FastAPI` · `ChromaDB` · `sentence-transformers` · `Ollama` · `TF-IDF` · `RAG`
+Stack: "Python" · "FastAPI" · "ChromaDB" · "sentence-transformers" · "OpenRouter" · "Ollama" · "Docker" · "AWS Lambda"
 
----
-
-### 📊 [Advertising Analytics Pipeline](https://github.com/kat1478/advertising-analytics-pipeline)
-
-A reproducible end-to-end analytics pipeline built around advertising campaign data.
-
-It implements raw ingestion, validation, SQL staging and marts, advertising metrics, deterministic synthetic data generation, automated testing and GitHub Actions CI.
-
-`Python` · `SQL` · `DuckDB` · `pandas` · `pytest` · `GitHub Actions`
+"Repository" (https://github.com/kat1478/notes-rag-assistant) · "Live Demo" (https://iwpihtdkkdhsjuo5vinbtg6pty0dsvhz.lambda-url.eu-north-1.on.aws/)
 
 ---
 
-### 🧬 [Evolution Strategies for MuJoCo & HumanoidBench](https://github.com/kat1478/es-mujoco-humanoidbench)
+🧠 "NeuroFlyNav" (https://github.com/kat1478/NeuroFlyNav)
 
-An experimental implementation of **Evolution Strategies** based on Salimans et al. (2017), evaluated on MuJoCo HalfCheetah and HumanoidBench environments.
+Computational Neuroscience · Experimental ML · Graph-Based Neural Systems
 
-The project explores antithetic sampling, fitness shaping, observation normalization and the practical limitations of optimization under constrained computational budgets.
+A research project investigating whether biological neural connectivity can improve artificial navigation agents.
 
-`Python` · `MuJoCo` · `Evolution Strategies` · `Reinforcement Learning`
+The system uses the real Drosophila central-complex connectome as a recurrent neural reservoir and compares it against controlled alternative network structures.
+
+- Constructed a recurrent network from 2,966 neurons and 467,579 connections.
+- Compared biological connectivity with degree-preserving shuffled graphs, random recurrent networks, and memoryless agents.
+- Conducted multi-seed experiments, confidence-interval analysis, and follow-up evaluations on fresh seeds.
+- Investigated how cell-type connectivity, recurrent dynamics, and trainable weights influence navigation performance.
+- Documented negative results, experimental limitations, and alternative explanations.
+
+Research focus: understanding whether observed improvements come from biological connectivity itself, network structure, or the dynamics used to process information.
+
+Stack: "Python" · "NumPy" · "Graph Algorithms" · "Recurrent Neural Networks" · "Statistical Evaluation"
+
+"Repository" (https://github.com/kat1478/NeuroFlyNav)
 
 ---
 
-### 🔎 [SPADE Sequential Pattern Mining](https://github.com/kat1478/SPADE_project)
+📊 "Advertising Analytics Pipeline" (https://github.com/kat1478/advertising-analytics-pipeline)
 
-Implementation and experimental comparison of several SPADE-style sequential pattern mining algorithms, including DFS, BFS and constrained variants.
+Data Engineering · SQL · Data Quality · CI/CD
 
-The project emphasizes algorithm correctness, reproducible experiments, runtime statistics and consistency checks between implementations.
+A reproducible end-to-end analytics pipeline for transforming advertising campaign data into validated analytical datasets and business reports.
 
-`Python` · `Algorithms` · `Sequential Pattern Mining` · `pytest`
+- Implemented deterministic synthetic data generation, ingestion, validation, SQL staging, and analytical marts.
+- Designed campaign-performance metrics including CTR, CPC, conversion rate, and ROAS.
+- Developed automated tests for data consistency, attribution assumptions, and financial metric correctness.
+- Built reproducible reporting workflows and continuous integration with GitHub Actions.
+
+Stack: "Python" · "SQL" · "DuckDB" · "pandas" · "pytest" · "GitHub Actions"
+
+"Repository" (https://github.com/kat1478/advertising-analytics-pipeline)
 
 ---
 
-### 🧠 [BERT Semantic Similarity](https://github.com/kat1478/nlp-semantic-similarity-bert)
+🧬 "Evolution Strategies for MuJoCo & HumanoidBench" (https://github.com/kat1478/es-mujoco-humanoidbench)
 
-Fine-tuning and evaluation of BERT for semantic similarity classification on question pairs.
+Reinforcement Learning · Evolutionary Optimization · Experimental ML
 
-`BERT` · `Transformers` · `PyTorch` · `NLP`
+An experimental implementation of Evolution Strategies based on Salimans et al. (2017), evaluated on MuJoCo HalfCheetah and HumanoidBench environments.
 
-## 🔐 Current research & private projects
+- Implemented Evolution Strategies with antithetic sampling, fitness shaping, and observation normalization.
+- Conducted experiments across locomotion and manipulation environments.
+- Investigated convergence stability, optimization behaviour, and computational-budget limitations.
+- Documented performance differences and limitations of partial experimental replication.
 
-I'm also working on projects around:
+Stack: "Python" · "MuJoCo" · "Evolution Strategies" · "Reinforcement Learning"
 
-* **agentic AI evaluation and adversarial testing**
-* **semantic document alignment and comparison**
-* **LLM-assisted engineering workflows**
-* **reproducible evaluation pipelines for AI systems**
+"Repository" (https://github.com/kat1478/es-mujoco-humanoidbench)
 
-Some of this work is currently kept in private repositories.
+🧪 Additional Projects
 
-## 🛠️ Technologies
+🔎 "SPADE Sequential Pattern Mining" (https://github.com/kat1478/SPADE_project)
 
-**AI / ML**
+Implemented and experimentally compared depth-first, breadth-first, and constrained SPADE variants for sequential pattern mining.
 
-`Python` · `PyTorch` · `Transformers` · `sentence-transformers` · `scikit-learn` · `RAG` · `Vector Search` · `Ollama`
+Focused on algorithm correctness, consistency checks, execution statistics, and reproducible experiments.
 
-**Backend & Data**
+"Python" · "Algorithms" · "Sequential Pattern Mining" · "pytest"
 
-`FastAPI` · `pandas` · `SQL` · `DuckDB` · `ChromaDB`
+🧠 "BERT Semantic Similarity" (https://github.com/kat1478/nlp-semantic-similarity-bert)
 
-**Engineering**
+Fine-tuned BERT for semantic similarity classification using Quora Question Pairs.
 
-`pytest` · `Git` · `GitHub Actions` · `Docker` · `Linux / WSL` · `Conda / Mamba`
+Implemented data preprocessing, model training, and evaluation using classification metrics, confusion matrices, and ROC analysis.
 
-## 🧭 How I like to work
+"PyTorch" · "BERT" · "Transformers" · "scikit-learn"
 
-I enjoy projects where implementation and evaluation happen together:
+📈 "AI Car Price Data Analyst" (https://github.com/kat1478/ai-data-analyst)
 
-**build → measure → find failure modes → understand them → improve → repeat**
+An automated data analysis and machine learning workflow combining exploratory data analysis, regression modeling, evaluation, and interactive reporting.
 
-I'm especially interested in systems where reliability, reproducibility and evidence matter as much as getting the first prototype running.
+Includes a Python CLI, Streamlit dashboard, automated tests, and reproducible data-processing pipelines.
 
-## 🎯 Areas I'm interested in
+"Python" · "pandas" · "scikit-learn" · "Streamlit" · "pytest"
 
-I'm currently interested in opportunities around:
+🔐 Private Research & Development
 
-**Applied AI / LLM Engineering · AI Evaluation · Agentic Systems · ML Engineering · AI Backend · Data & AI Systems**
+Alongside my public portfolio, I work on experimental AI systems and research-oriented engineering projects.
 
-I especially enjoy problems that combine software engineering with experimentation and machine learning.
+Palimpsest — Semantic Document Alignment
 
-📧 **Email:** [katarzynakadyszewska@gmail.com](mailto:katarzynakadyszewska@gmail.com)
-🔗 **[LinkedIn](https://www.linkedin.com/in/katarzyna-kadyszewska)**
+NLP · Algorithm Engineering · Evaluation
+
+An auditable semantic document comparison system combining transformer embeddings, exact-text anchors, and order-preserving sequence alignment.
+
+- Developed paragraph-level and sentence-level alignment workflows.
+- Designed baseline comparisons, parameter calibration, and held-out evaluation protocols.
+- Implemented structured reports preserving source references, model revisions, algorithm parameters, and reproducibility metadata.
+- Explored the distinction between semantic correspondence and actual meaning equivalence.
+
+"Python" · "sentence-transformers" · "Needleman–Wunsch" · "pytest" · "mypy"
+
+PACKEN — Multi-Agent AI Evaluation
+
+Agentic AI · Adversarial Testing · AI Safety Evaluation
+
+An experimental framework for defensively evaluating controlled LLM-based multi-agent systems.
+
+- Designed a multi-agent evaluation architecture with specialized probing, strategy, and oversight responsibilities.
+- Developed structured interaction contracts and traceable execution records.
+- Implemented evaluation workflows for analyzing adversarial test outcomes and system behaviour.
+- Explored repeatable testing, scoring, and failure analysis for agentic systems.
+
+"Python" · "LLM APIs" · "Multi-Agent Systems" · "Evaluation Frameworks" · "pytest"
+
+Both projects are maintained in private repositories.
+
+🛠️ Technical Stack
+
+AI & Machine Learning
+
+"Python" · "PyTorch" · "Transformers" · "scikit-learn" · "sentence-transformers" · "RAG" · "Embeddings" · "Vector Search" · "LLM Evaluation"
+
+Backend & Data
+
+"FastAPI" · "REST APIs" · "SQL" · "PostgreSQL" · "DuckDB" · "ChromaDB" · "pandas"
+
+Engineering & Infrastructure
+
+"pytest" · "Ruff" · "mypy" · "Git" · "GitHub Actions" · "Docker" · "AWS Lambda" · "Linux / WSL" · "Conda / Mamba"
+
+LLM Tools & Workflows
+
+"Claude Code" · "Codex" · "Ollama" · "OpenRouter" · "AI-Assisted Development"
+
+🧭 How I Work
+
+I approach engineering and research as an iterative process:
+
+Build → Establish baselines → Evaluate → Investigate failures → Improve → Re-evaluate
+
+Some principles I follow:
+
+- Evidence over assumptions — compare approaches against measurable baselines rather than relying on intuition.
+- Reproducibility — document configurations, model versions, evaluation protocols, and experimental conditions.
+- Meaningful evaluation — separate development and calibration from held-out validation.
+- Engineering quality — use automated testing, static analysis, CI, and independent code review.
+- Transparent limitations — document negative results, failure modes, and conditions under which conclusions may not generalize.
+
+I also use AI-assisted engineering workflows with separate responsibilities for planning, implementation, and independent verification.
+
+The goal is not simply to generate code faster, but to make development more structured, testable, and traceable.
+
+🎯 Areas of Interest
+
+I'm interested in engineering and research opportunities involving:
+
+Applied AI Engineering · LLM & RAG Systems · AI Evaluation · Agentic AI · ML Engineering · NLP · AI Backend · Data & AI Systems
+
+I particularly enjoy problems that combine software engineering, experimentation, and practical machine learning.
+
+📍 Warsaw, Poland · Open to remote and hybrid opportunities
+
+📧 Email: "katarzynakadyszewska@gmail.com" (mailto:katarzynakadyszewska@gmail.com)
+
+🔗 LinkedIn: "katarzyna-kadyszewska" (https://www.linkedin.com/in/katarzyna-kadyszewska)
