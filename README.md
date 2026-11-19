@@ -1,4 +1,3 @@
-
 # Hi, I'm Katarzyna 👋
 
 **AI/ML Engineering · LLM Systems · NLP · Evaluation**
@@ -19,17 +18,17 @@ I'm completing my Master's degree in **Computer Science at Warsaw University of 
 
 **LLM Engineering · RAG · Evaluation · AWS**
 
+**[▶ Live Demo](https://iwpihtdkkdhsjuo5vinbtg6pty0dsvhz.lambda-url.eu-north-1.on.aws/) · [Interactive Model Benchmark](https://kat1478.github.io/notes-rag-assistant/benchmark/) · [Repository](https://github.com/kat1478/notes-rag-assistant)**
+
 An end-to-end RAG application for querying personal notes with grounded answers, source citations, and refusal behaviour when evidence is insufficient.
 
 - Built a FastAPI backend with semantic search, TF-IDF fallback, context expansion, and multiple LLM providers.
 - Developed separate evaluation workflows for retrieval, answer quality, and unseen documents.
-- Benchmarked **6 LLMs on 94 questions**, comparing grounding, cost, and latency.
+- Benchmarked **6 LLMs on 94 questions**, comparing grounding, cost, and latency; published an interactive benchmark comparison.
 - Integrated an LLM-as-judge calibrated against human assessments.
-- Added automated quality gates, Docker support, and AWS Lambda deployment.
+- Added automated quality gates, Docker support, and a live serverless deployment on AWS Lambda.
 
 **Stack:** `Python` · `FastAPI` · `ChromaDB` · `sentence-transformers` · `OpenRouter` · `Docker` · `AWS`
-
-[Repository](https://github.com/kat1478/notes-rag-assistant) | [Live Demo](https://iwpihtdkkdhsjuo5vinbtg6pty0dsvhz.lambda-url.eu-north-1.on.aws/)
 
 ---
 
@@ -37,22 +36,22 @@ An end-to-end RAG application for querying personal notes with grounded answers,
 
 **Computational Neuroscience · Experimental ML · Graph-Based Neural Systems**
 
+**[▶ Live Interactive App](https://kat1478.github.io/NeuroFlyNav/) · [Repository](https://github.com/kat1478/NeuroFlyNav)**
+
 A research project investigating whether biological neural connectivity can improve artificial navigation agents.
 
-The system uses the real *Drosophila* central-complex connectome as a recurrent neural reservoir and compares it against controlled alternative networks.
+The system uses the real *Drosophila* central-complex connectome as a recurrent neural network and compares it against controlled alternative networks. Its interactive web app lets visitors explore the wiring, inspect experimental comparisons, and run trained navigation models in the browser.
 
 - Constructed a recurrent system using **2,966 neurons and 467,579 connections**.
 - Compared biological wiring with shuffled, random, and memoryless baselines.
 - Conducted multi-seed experiments, confidence-interval analysis, and follow-up evaluations.
 - Investigated the roles of cell-type connectivity, recurrent dynamics, and trainable weights.
-- Documented negative results and experimental limitations alongside observed improvements.
+- Deployed trained PyTorch models to the browser using **ONNX Runtime Web**, with a **TypeScript/Vite** interface and interactive map-based simulations.
+- Added reproducible cloud experiment runs using **AWS Batch, S3, Docker, and Terraform**; documented negative results and experimental limitations.
 
-**Stack:** `Python` · `NumPy` · `Graph Algorithms` · `Recurrent Networks` · `Statistical Evaluation`
-
-[Repository](https://github.com/kat1478/NeuroFlyNav)
+**Stack:** `Python` · `PyTorch` · `NumPy` · `Graph Algorithms` · `ONNX` · `TypeScript` · `AWS` · `Statistical Evaluation`
 
 ---
-
 ### [Advertising Analytics Pipeline](https://github.com/kat1478/advertising-analytics-pipeline)
 
 **Data Engineering · SQL · Data Quality**
